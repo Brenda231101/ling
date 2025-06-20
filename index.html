@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soy Ling Creativa</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0000003f;
+}
+.caja {
+  border: 5px solid #4d0d0d;
+  border-radius: 10px;
+  background-color: #A57C53;
+}
+
+.iconos-header img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-dark {
+  background-color: #300000;
+  border: none;
+}
+
+.fondo {
+  background: url("./IMAGENES/fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100px;
+  color: rgb(255, 255, 255);
+}
+
+</style>
+</head>
+
+<body> 
+  <header class="header container-fluid fondo">
+    <div class="logo">
+      <div><img src="./IMAGENES/logo.png" alt="logo" width="100px"></div>
+    </div>
+    <div class="titulo">
+      <div><img src="./IMAGENES/titulo.png" alt="titulo" width="200px"></div>
+    </div>
+    <div class="iconos-header">
+        <img src="./IMAGENES/perfil.png" alt="Usuario">
+        <img src="./IMAGENES/menu.png" alt="Menú">
+    </div>
+    
+</header>
+  
+  <div class="container-fluid fondo">
+        <div class="container">
+          <div class="row row-cols-lg-2 row row-cols-1 row-cols-md-2 row-cols-lg-4 p-4">
+            <div class="col-md-6 col-lg-6 text-center">
+              <h1> Bienvenido a mi pequeña vitrina creativa</h1>
+              <p>Diseño ideas con propósito de conectar.
+                Desarrollo marcas, mensajes y espacios digitales que conectan y generan valor.</p>
+            <div class="row-cols-lg-1 mt-1 row-cols-1 ">
+              <div class="col-md- mb-3">
+                <button class="btn btn-dark w-100">Registrarme gratis</button>
+              </div>
+            </div>    
+            </div>
+            
+            <div class="col-md-6 col-lg-6 text-center">
+              <img src="./IMAGENES/BRENDA.png" alt="foto" width="200px" class="img-fluid rounded">
+            </div>
+          
+          </div>
+  
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <!-- CAJAS -->
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/Union.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/CAMPAÑA.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/MOCKUP.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/3D.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+          </div>
+    
+          <div class="row row-cols-lg-2 row row-cols-1 row-cols-md-2 row-cols-lg-2 p-4 caja">
+            <div class="col-md-4 text-center">
+              <img src="./IMAGENES/Group 1.png" alt="foto" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8 text-center">
+              <p class="p-4">
+                Soy Brenda Severich ESTUDIANTE DE DISEÑO gráfico aficionada por el arte tradicional y el diseño digital.Mi trabajo se caracteriza en el enfoque visual artesanal aplicado a soluciones gráficas modernas, abarcando piezas gráficas para redes sociales, branding y diseño editorial. He colaborado con marcas, emprendedores y equipos creativos, aportando piezas con valor estético y funcionalidad estratégica.
+              </p>
+            </div>
+            
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <!-- CAJAS -->
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/tarea 1.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/tarea 2.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/tarea 3.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="p-2">
+                <img src="./IMAGENES/tarea 4.png" alt="imagen" class="img-fluid">
+              </div>
+            </div>
+          </div>
+         
+          <div class="row mt-5 p-4 caja">
+            <div class="col-md-6 text-white">
+              <p>¿Te gustó lo que viste?<br><strong>¡Súmate a mi mundo creativo!</strong></p>
+              <p>Estoy abierta a colaboraciones, pasantías, proyectos o simplemente a charlar sobre diseño.</p>
+            </div>
+            <div class="col-md-6">
+              <form>
+                <input type="text" class="form-control mb-2" placeholder="Nombre">
+                <input type="text" class="form-control mb-2" placeholder="Número de contacto">
+                <input type="email" class="form-control mb-2" placeholder="Correo">
+                <textarea class="form-control mb-2" rows="3" placeholder="Escribí tu mensaje"></textarea>
+                <button class="btn btn-dark w-100">Enviar</button>
+              </form>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script>
+
+</body>
+</html>
+    
